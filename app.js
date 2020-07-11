@@ -26,10 +26,10 @@ app.post("/", function (req, res) {
     };
    var jsonData = JSON.stringify(data);
      var options = {
-         url:'https://us5.api.mailchimp.com/3.0/lists/<mailchimp unique id>/',
+         url:'https://us5.api.mailchimp.com/3.0/lists/<mailchimp-unique-ID>/',
          method:"POST",
          headers: {
-            'Authorization': '<name> <mailchimp API KEY>',  
+            'Authorization': '<ANY-Name> <mailchimp-API-KEY>',  
                  },
         body:jsonData 
      }
